@@ -4,47 +4,49 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="@color/white">
     <ImageView
         android:id="@+id/main_image_top"
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:background="#FFFFFF"
-        android:layout_marginTop="10dp"
-        android:layout_marginLeft="10dp"
-        android:src="@drawable/main_imageview_lefttop"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:src="@drawable/park_main_photo"
         />
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:text="Easy Parking"
         android:textSize="30dp"
-        android:layout_marginTop="15dp"
-        android:layout_marginLeft="70dp"
+        android:layout_marginTop="34dp"
+        android:layout_marginLeft="100dp"
         android:textColor="@color/black"
         />
     <HorizontalScrollView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="200dp"
         >
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            >
             <ImageView
                 android:layout_width ="400dp"
-                android:layout_height="300dp"
+                android:layout_height="225dp"
                 android:scaleType="fitXY"
                 android:src="@drawable/photo1"/>
             <ImageView
                 android:layout_width="400dp"
-                android:layout_height="300dp"
+                android:layout_height="225dp"
                 android:scaleType="fitXY"
                 android:src="@drawable/photo2"/>
             <ImageView
                 android:layout_width="400dp"
-                android:layout_height="300dp"
+                android:layout_height="225dp"
                 android:scaleType="fitXY"
                 android:src="@drawable/photo3"/>
         </LinearLayout>
@@ -53,8 +55,8 @@
         android:id="@+id/main_sign_up"
         android:layout_width="200dp"
         android:layout_height="50dp"
-        android:layout_marginLeft="110dp"
-        android:layout_marginTop="450dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="550dp"
         android:text="Sign up"
         android:textColor="#FFFFFF"
         android:background="@drawable/sign_button_in_background"
@@ -63,7 +65,7 @@
         android:id="@+id/main_sign_in"
         android:layout_width="200dp"
         android:layout_height="50dp"
-        android:layout_marginLeft="110dp"
+        android:layout_marginLeft="80dp"
         android:layout_below="@id/main_sign_up"
         android:layout_marginTop="20dp"
         android:text="Sign in"
